@@ -1,0 +1,30 @@
+.text-center {
+  color: black;
+  font-family: Poppins;
+  text-align: center;
+}
+
+.containers {
+  justify-content:space-evenly;
+  align-items: flex-start;
+  height: 400px;
+}
+
+.containers .box {
+  width: 200px;height: 250px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  align-self:flex-end;
+}
+
+.box img {
+  width: 150px;
+}
+
+.big-box {
+  display: flex;
+  justify-content:space-evenly;
+}
